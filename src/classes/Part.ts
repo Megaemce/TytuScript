@@ -31,7 +31,7 @@ class Part {
          * Otherwise use it as a string (eg. translate(-2%,0px) */
 
         x = typeof x === "number" ? x + "px" : x;
-        y = typeof x === "number" ? y + "px" : y;
+        y = typeof y === "number" ? y + "px" : y;
 
         this.div.style.translate = `${x} ${y}`;
     }
