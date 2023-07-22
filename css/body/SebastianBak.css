@@ -1,0 +1,72 @@
+#SebastianBakBody {
+}
+#SebastianBak-headBody {
+    height: 160px;
+    margin-bottom: -60px;
+}
+#SebastianBak-faceBody {
+    height: 160px;
+    background-color: coral;
+}
+#SebastianBak-eyesBody {
+    background-color: blue;
+}
+#SebastianBak-noseBody {
+    margin-bottom: 20px;
+    background-color: blueviolet;
+}
+#SebastianBak-mouthBody {
+    background-color: aqua;
+}
+
+#SebastianBak-leftUpperarmBody {
+    height: 60px;
+    flex-basis: fit-content;
+    content: url("../../img/body/upperarm/Human0.svg");
+}
+#SebastianBak-leftForearmBody {
+    height: 60px;
+    flex-basis: fit-content;
+    content: url("../../img/body/forearm/Human0.svg");
+}
+#SebastianBak-rightUpperarmBody {
+    margin-right: 10px;
+    height: 60px;
+    flex-basis: fit-content;
+    content: url("../../img/body/upperarm/Human1.svg");
+}
+#SebastianBak-rightForearmBody {
+    height: 60px;
+    flex-basis: fit-content;
+    content: url("../../img/body/forearm/Human1.svg");
+}
+#SebastianBak-chestBody {
+    width: 200px;
+    background-color: coral;
+}
+#SebastianBak-leftThighBody {
+    flex-basis: fit-content;
+    content: url("../../img/body/thigh/Human0.svg");
+}
+#SebastianBak-leftCalfBody {
+    margin-top: -12px;
+    flex-basis: fit-content;
+    content: url("../../img/body/calf/Human0.svg");
+}
+#SebastianBak-leftFootBody {
+    flex-basis: fit-content;
+    content: url("../../img/body/foot/Human0.svg");
+}
+#SebastianBak-rightThighBody {
+    flex-basis: fit-content;
+    content: url("../../img/body/thigh/Human0.svg");
+}
+#SebastianBak-rightCalfBody {
+    margin-top: -12px;
+    flex-basis: fit-content;
+    content: url("../../img/body/calf/Human0.svg");
+}
+#SebastianBak-rightFootBody {
+    flex-basis: fit-content;
+    content: url("../../img/body/foot/Human0.svg");
+}

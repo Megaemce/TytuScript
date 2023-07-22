@@ -1,0 +1,29 @@
+@keyframes breathing {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(1%);
+    }
+    66% {
+        transform: translateY(-1%);
+    }
+}
+
+@keyframes talking {
+    0% {
+        background-image: url(../img/body/mouth/TytusBomba0.svg);
+    }
+    20% {
+        background-image: url(../img/body/mouth/TytusBomba2.svg);
+    }
+    40% {
+        background-image: url(../img/body/mouth/TytusBomba3.svg);
+    }
+    60% {
+        background-image: url(../img/body/mouth/TytusBomba4.svg);
+    }
+    80% {
+        background-image: url(../img/body/mouth/TytusBomba1.svg);
+    }
+}

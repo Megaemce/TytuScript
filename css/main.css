@@ -1,0 +1,104 @@
+button {
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: transparent;
+    border: 0;
+}
+
+.hidden {
+    display: none;
+    pointer-events: none;
+}
+
+.visible {
+    display: flex;
+    pointer-events: visible;
+}
+
+.main {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .editor {
+        width: fit-content;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .title {
+            font-size: 40px;
+            font-family: monospace;
+            font-weight: bold;
+            text-align: center;
+
+            margin: 15px;
+        }
+
+        .elementSwitch {
+            width: 100%;
+            height: 100px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            margin: 15px;
+
+            .subtitle {
+                font-size: 30px;
+                font-family: monospace;
+                font-weight: bold;
+                text-align: center;
+
+                margin: 15px;
+            }
+        }
+
+        .character {
+            width: 400px;
+            height: 700px;
+            aspect-ratio: 4/7;
+
+            position: relative;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+            filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+        }
+    }
+
+    #leftMainSwitch,
+    #rightMainSwitch {
+        font-size: 60px;
+    }
+
+    #leftMainSwitch {
+        color: transparent;
+    }
+
+    #leftBodySwitch,
+    #rightBodySwitch,
+    #leftClothesSwitch,
+    #rightClothesSwitch {
+        color: grey;
+    }
+
+    #bodySwitch,
+    #clothesSwitch,
+    #actionSwitch {
+        display: none;
+    }
+}

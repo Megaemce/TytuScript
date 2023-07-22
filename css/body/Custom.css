@@ -1,0 +1,75 @@
+#Custom {
+}
+#Custom-upperSection {
+}
+#Custom-face {
+    background-color: grey;
+}
+#Custom-eyes {
+    background-color: blue;
+}
+#Custom-nose {
+    background-color: blueviolet;
+}
+#Custom-mouth {
+    background-color: aqua;
+}
+#Custom-leftUpperarm {
+    height: 60px;
+    flex-basis: fit-content;
+    content: url("../../img/body/upperarm/Human0.svg");
+}
+#Custom-leftForearm {
+    height: 60px;
+    flex-basis: fit-content;
+    content: url("../../img/body/forearm/Human0.svg");
+}
+#Custom-rightUpperarm {
+    margin-right: 10px;
+    height: 60px;
+    flex-basis: fit-content;
+    content: url("../../img/body/upperarm/Human1.svg");
+}
+#Custom-rightForearm {
+    height: 60px;
+    flex-basis: fit-content;
+    content: url("../../img/body/forearm/Human1.svg");
+}
+#Custom-rightTool {
+}
+#Custom-chest {
+    width: 200px;
+    background-color: grey;
+}
+#Custom-lowerSection {
+    margin-top: -23px;
+}
+#Custom .leg {
+    margin-inline: 4px;
+}
+#Custom-leftThigh {
+    flex-basis: fit-content;
+    content: url("../../img/body/thigh/Human0.svg");
+}
+#Custom-leftCalf {
+    margin-top: -12px;
+    flex-basis: fit-content;
+    content: url("../../img/body/calf/Human0.svg");
+}
+#Custom-leftFoot {
+    flex-basis: fit-content;
+    content: url("../../img/body/foot/Human0.svg");
+}
+#Custom-rightThigh {
+    flex-basis: fit-content;
+    content: url("../../img/body/thigh/Human0.svg");
+}
+#Custom-rightCalf {
+    margin-top: -12px;
+    flex-basis: fit-content;
+    content: url("../../img/body/calf/Human0.svg");
+}
+#Custom-rightFoot {
+    flex-basis: fit-content;
+    content: url("../../img/body/foot/Human0.svg");
+}

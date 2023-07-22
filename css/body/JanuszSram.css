@@ -1,0 +1,88 @@
+#JanuszSram {
+}
+#JanuszSram-upperSection {
+    margin-bottom: -45px;
+}
+#JanuszSram-faceBody {
+    background-color: chartreuse;
+}
+#JanuszSram-eyesBody {
+    background-color: blue;
+}
+#JanuszSram-noseBody {
+    background-color: blueviolet;
+}
+#JanuszSram-mouthBody {
+    background-color: aqua;
+}
+#JanuszSram-leftUpperarmBody {
+    background-image: url("../../img/body/upperarm/Human0.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#JanuszSram-leftForearmBody {
+    background-image: url("../../img/body/forearm/Human0.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#JanuszSram-rightUpperarmBody {
+    background-image: url("../../img/body/upperarm/Human1.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#JanuszSram-rightForearmBody {
+    background-image: url("../../img/body/forearm/Human1.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#JanuszSram-chest {
+    width: 83%;
+}
+#JanuszSram-chestBody {
+    background-color: aquamarine;
+}
+#JanuszSram-legsBody {
+}
+#JanuszSram-rightLegBody,
+#JanuszSram-leftLeg {
+}
+#JanuszSram-leftThighBody {
+    background-image: url("../../img/body/thigh/Human0.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#JanuszSram-leftCalfBody {
+    background-image: url("../../img/body/calf/Human0.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#JanuszSram-leftFootBody {
+    background-image: url("../../img/body/foot/Human0.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#JanuszSram-rightThighBody {
+    background-image: url("../../img/body/thigh/Human0.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#JanuszSram-rightCalfBody {
+    background-image: url("../../img/body/calf/Human0.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#JanuszSram-rightFootBody {
+    background-image: url("../../img/body/foot/Human0.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

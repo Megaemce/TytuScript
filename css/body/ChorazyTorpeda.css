@@ -1,0 +1,75 @@
+#ChorazyTorpeda {
+}
+#ChorazyTorpeda-upperSection {
+}
+#ChorazyTorpeda-face {
+    background-color: bisque;
+}
+#ChorazyTorpeda-eyes {
+    background-color: blue;
+}
+#ChorazyTorpeda-nose {
+    background-color: blueviolet;
+}
+#ChorazyTorpeda-mouth {
+    background-color: aqua;
+}
+
+#ChorazyTorpeda-leftUpperarm {
+    height: 60px;
+    flex-basis: fit-content;
+    content: url("../../img/body/upperarm/Human0.svg");
+}
+#ChorazyTorpeda-leftForearm {
+    height: 60px;
+    flex-basis: fit-content;
+    content: url("../../img/body/forearm/Human0.svg");
+}
+#ChorazyTorpeda-rightUpperarm {
+    margin-right: 10px;
+    height: 60px;
+    flex-basis: fit-content;
+    content: url("../../img/body/upperarm/Human1.svg");
+}
+#ChorazyTorpeda-rightForearm {
+    height: 60px;
+    flex-basis: fit-content;
+    content: url("../../img/body/forearm/Human1.svg");
+}
+#ChorazyTorpeda-rightTool {
+}
+#ChorazyTorpeda-chest {
+    background-color: bisque;
+}
+#ChorazyTorpeda-lowerSection {
+    margin-top: -23px;
+}
+#ChorazyTorpeda .leg {
+    margin-inline: 4px;
+}
+#ChorazyTorpeda-leftThigh {
+    flex-basis: fit-content;
+    content: url("../../img/body/thigh/Human0.svg");
+}
+#ChorazyTorpeda-leftCalf {
+    margin-top: -12px;
+    flex-basis: fit-content;
+    content: url("../../img/body/calf/Human0.svg");
+}
+#ChorazyTorpeda-leftFoot {
+    flex-basis: fit-content;
+    content: url("../../img/body/foot/Human0.svg");
+}
+#ChorazyTorpeda-rightThigh {
+    flex-basis: fit-content;
+    content: url("../../img/body/thigh/Human0.svg");
+}
+#ChorazyTorpeda-rightCalf {
+    margin-top: -12px;
+    flex-basis: fit-content;
+    content: url("../../img/body/calf/Human0.svg");
+}
+#ChorazyTorpeda-rightFoot {
+    flex-basis: fit-content;
+    content: url("../../img/body/foot/Human0.svg");
+}

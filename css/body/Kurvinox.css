@@ -1,0 +1,46 @@
+#Kurvinox {
+}
+#Kurvinox-upperSection {
+}
+#Kurvinox-face {
+    background-color: mediumblue;
+}
+#Kurvinox-eyes {
+    background-color: blue;
+}
+#Kurvinox-nose {
+    background-color: blueviolet;
+}
+#Kurvinox-mouth {
+    background-color: aqua;
+}
+#Kurvinox-leftUpperarm {
+    background-color: mediumblue;
+}
+#Kurvinox-rightUpperarm {
+    background-color: mediumblue;
+}
+#Kurvinox-rightTool {
+}
+#Kurvinox-chest {
+    width: 250px;
+    background-color: mediumblue;
+}
+#Kurvinox-lowerSection {
+    margin-top: -23px;
+}
+#Kurvinox-leftThigh {
+    background-color: mediumblue;
+}
+#Kurvinox-rightThigh {
+    background-color: mediumblue;
+}
+#Kurvinox-tail {
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: -20px;
+    bottom: 70px;
+    background-color: mediumblue;
+}

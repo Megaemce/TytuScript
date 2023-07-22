@@ -1,0 +1,397 @@
+/* setup general style for all character div to make code cleaner */
+.character div {
+    width: 100%;
+    height: 100%;
+
+    position: inherit;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    pointer-events: none;
+}
+
+div.upperSection {
+    width: 38%;
+    height: 21%;
+    aspect-ratio: 38/21;
+
+    z-index: 3;
+    position: relative;
+}
+div.headBody {
+    z-index: 1;
+    position: absolute;
+
+    justify-content: flex-start;
+}
+div.headClothes {
+    width: 54%;
+    margin-left: 2%;
+    z-index: 2;
+    position: absolute;
+}
+div.face {
+    width: 90%;
+    height: 90%;
+    aspect-ratio: 90/90;
+}
+div.faceBody {
+    z-index: 1;
+    position: absolute;
+}
+div.faceClothes {
+    z-index: 2;
+    position: absolute;
+}
+div.hair {
+    width: 41%;
+    height: 19%;
+    aspect-ratio: 41/19;
+}
+div.hairBody {
+    z-index: 1;
+    position: absolute;
+}
+
+div.hairClothes {
+    z-index: 2;
+    position: absolute;
+}
+
+div.eyebrows {
+    width: 39%;
+    height: 10%;
+    aspect-ratio: 39/10;
+    margin-top: 23%;
+
+    position: relative;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.leftEyebrow,
+div.rightEyebrow {
+    width: 45%;
+    aspect-ratio: 45/100;
+}
+div.leftEyebrowBody,
+div.rightEyebrowBody {
+    z-index: 1;
+    position: absolute;
+}
+div.leftEyebrowClothes,
+div.rightEyebrowClothes {
+    z-index: 2;
+    position: absolute;
+}
+div.eyes {
+    width: 41%;
+    height: 17%;
+    aspect-ratio: 41/17;
+    margin-top: -1.5%;
+
+    z-index: 1;
+    position: relative;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+div.leftEye,
+div.rightEye {
+    width: 48%;
+    aspect-ratio: 48/100;
+}
+div.leftEyeBody,
+div.righEyeBody {
+    z-index: 1;
+    position: absolute;
+}
+div.leftEyeClothes,
+div.rightEyeClothes {
+    z-index: 2;
+    position: absolute;
+}
+
+div.nose {
+    width: 10%;
+    height: 9%;
+    aspect-ratio: 10/9;
+    margin-top: 51%;
+
+    z-index: 2;
+}
+div.noseBody {
+    z-index: 1;
+    position: absolute;
+}
+
+div.noseClothes {
+    z-index: 2;
+    position: absolute;
+}
+
+div.beard {
+    height: 34%;
+    aspect-ratio: 34/100;
+    margin-top: 53%;
+
+    z-index: 1;
+}
+div.beardBody {
+    z-index: 1;
+    position: absolute;
+}
+
+div.beardClothes {
+    z-index: 2;
+    position: absolute;
+}
+
+div.mouth {
+    width: 40%;
+    height: 22%;
+    aspect-ratio: 40/22;
+    margin-top: 62%;
+}
+div.mouthBody {
+    z-index: 1;
+    position: absolute;
+}
+
+div.mouthClothes {
+    z-index: 2;
+    position: absolute;
+}
+
+div.middleSection {
+    width: 55%;
+    height: 22%;
+    aspect-ratio: 55/22;
+    margin-top: -8%;
+
+    z-index: 2;
+    position: relative;
+}
+div.chest {
+    width: 63%;
+    aspect-ratio: 63/100;
+    z-index: 2;
+
+    position: absolute;
+}
+div.chestBody {
+    z-index: 1;
+    position: absolute;
+}
+div.chestClothes {
+    z-index: 2;
+    position: absolute;
+}
+
+div.arms {
+    width: 80%;
+    aspect-ratio: 80/100;
+    margin-top: 5%;
+
+    z-index: 3;
+    position: absolute;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.leftArm,
+div.rightArm {
+    width: 25%;
+    height: 78%;
+    aspect-ratio: 25/78;
+
+    position: relative;
+
+    justify-content: flex-start;
+}
+div.rightArm {
+    transform: matrix(-1, 0, 0, 1, 0, 0); /* mirror the left */
+}
+div.leftUpperarm,
+div.rightUpperarm {
+    aspect-ratio: 80/140;
+    margin-bottom: -15%;
+}
+div.leftUpperarmBody,
+div.rightUpperarmBody {
+    width: 63%;
+    z-index: 1;
+    position: absolute;
+}
+div.leftUpperarmClothes,
+div.rightUpperarmClothes {
+    width: 70%;
+    aspect-ratio: 70/100;
+    margin-left: -5%;
+    margin-top: -8%;
+
+    z-index: 2;
+    position: absolute;
+}
+
+div.leftForearm,
+div.rightForearm {
+    width: 64%;
+    aspect-ratio: 64/100;
+    margin-top: -44%;
+    margin-left: -18%;
+}
+div.leftForearm {
+}
+div.rightForearm {
+}
+div.leftForearmBody,
+div.rightForearmBody {
+    width: 90%;
+    aspect-ratio: 70/140;
+    margin-left: 18%;
+    margin-top: 7%;
+
+    z-index: 1;
+    position: absolute;
+}
+
+div.leftForearmClothes,
+div.rightForearmClothes {
+    width: 81%;
+    aspect-ratio: 81/100;
+    margin-left: -12%;
+    margin-top: -35%;
+
+    z-index: 2;
+    position: absolute;
+}
+
+div.leftToolClothes,
+div.rightToolClothes {
+    width: 25%;
+    height: 1%;
+    aspect-ratio: 1/1;
+}
+
+div.tail {
+    width: 70%;
+    aspect-ratio: 70/100;
+    margin-top: 61%;
+    margin-left: 66%;
+
+    z-index: -1;
+    position: absolute;
+}
+div.tailBody {
+    z-index: 1;
+    position: absolute;
+}
+div.tailClothes {
+    z-index: 2;
+    position: absolute;
+}
+
+div.lowerSection {
+    width: 31%;
+    height: 23%;
+    aspect-ratio: 31/23;
+    margin-top: -7%;
+
+    z-index: 1;
+    position: relative;
+
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+div.rightleg {
+    transform: matrix(-1, 0, 0, 1, 0, 0); /* mirror the left */
+}
+
+div.leftleg,
+div.rightleg {
+    width: 27%;
+    aspect-ratio: 27/100;
+    padding-left: 8%;
+
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+div.leftThigh,
+div.rightThigh {
+    height: 41%;
+    aspect-ratio: 100/41;
+    margin-top: -80%;
+
+    z-index: 1;
+}
+div.leftThighBody,
+div.rightThighBody {
+    z-index: 1;
+    position: absolute;
+}
+div.leftThighClothes,
+div.rightThighClothes {
+    z-index: 2;
+    position: absolute;
+}
+
+div.leftCalf,
+div.rightCalf {
+    width: 69%;
+    height: 27%;
+    aspect-ratio: 69/27;
+    margin-top: -16%;
+    margin-right: 25%;
+
+    z-index: 2;
+}
+div.leftCalfBody,
+div.rightCalfBody {
+    margin-right: 3.5%;
+    z-index: 1;
+    position: absolute;
+}
+div.leftCalfClothes,
+div.rightCalfClothes {
+    width: 180%;
+    aspect-ratio: 180/100;
+    margin-top: -30%;
+
+    z-index: 2;
+    position: absolute;
+}
+
+div.leftFoot,
+div.rightFoot {
+    height: 16%;
+    aspect-ratio: 100/16;
+    margin-top: -48%;
+    margin-right: 15%;
+
+    z-index: 3;
+
+    justify-content: flex-start;
+}
+div.leftFootBody,
+div.rightFootBody {
+    width: 76%;
+    aspect-ratio: 76/100;
+    margin-left: 7%;
+    margin-top: 2%;
+
+    z-index: 1;
+    position: absolute;
+}
+div.leftFootClothes,
+div.rightFootClothes {
+    margin-top: -14%;
+    margin-left: 11%;
+    z-index: 2;
+    position: absolute;
+}
