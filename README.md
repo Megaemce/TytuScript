@@ -1,6 +1,8 @@
 # TytuScript
 <span align="center">
-<img src="img/TytuScript_logo.png" width="25%", height="25%"></img>
+  
+  ![TytuScript](img/TytuScript_logo.png)
+
 </span>
 
 ## Introduction
