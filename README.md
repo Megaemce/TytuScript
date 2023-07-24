@@ -29,7 +29,7 @@ character.self.name; // character's name
 ### Character's components
 The character is composed from the one Body, one Clothes and one Structural objects.
 #### Body object
-Contains all possible and changeable character body parts. Extending class Changeable, containg a leaf div. Parameters and function:
+Contains all possible and changeable character body parts. Extending class `Changeable`, containg a leaf div. Parameters and function:
 ````typescript
 // PARAMETERS //
 body.characterType; // character's type - Human/Alien
@@ -46,7 +46,7 @@ body.activate() // make all the parts of the body active (the hookers works);
 body.deactivate() // opposite
 ````
 #### Clothes object
-Contains all possible and changeable character clothes parts. Extending class Changeable, containg a leaf div. Parameters and function:
+Contains all possible and changeable character clothes parts. Extending class `Changeable`, containg a leaf div. Parameters and function:
 ````typescript
 // PARAMETERS //
 clothes.leftFoot; // ChangeablePart class object representing leftFoot's clothes div
