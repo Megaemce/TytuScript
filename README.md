@@ -101,7 +101,7 @@ chest.animate(transformName, transformValue, duration, defaultValue, iteration);
 ````
 
 #### StructuralPart object 
-Part tha cannot to switched. This object extend class `Part`. Parameters:
+Part that cannot to switched. This object extend class `Part`. Parameters:
 ````typescript
 const beard = structural.bear; // beard's parent div containing beardBody and beardClothes divs
 
