@@ -1,7 +1,6 @@
-# TytuScript
 <span align="center">
   
-  ![TytuScript](img/TytuScript_logo.png)
+  ![TytuScript](img/TytuScript_logo_small.png)
 
 </span>
 
