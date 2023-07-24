@@ -41,9 +41,9 @@ body.parts(); // returns array of all of the body changeable parts
 
 // functions inherited from class Changeable
 body.showAll() // make all the parts of the body visible;
-body.hideAll() // make all the parts of the body invisible;
-body.activate() // make all the parts of the body active (the hookers works);
-body.deactivate() // opposite
+body.hideAll()
+body.activate() // make all the body's part's handlers active
+body.deactivate()
 ````
 #### Clothes object
 Contains all possible and changeable character clothes parts. Extending class `Changeable`, containg a leaf div. Parameters and function:
@@ -86,9 +86,9 @@ chest.characterName; // name of the character
 // FUNCTIONS //
 chest.imageLocation(); // getter to check what is the full path of the currently shown chest image
 chest.activate(); // makes the part's handlers active
-chest.deactivate(); // opposite 
+chest.deactivate();
 chest.hide(); // hiddes the part
-chest.show(); // opposite
+chest.show(); 
 chest.highlight(); // adds effect to the part
 chest.nextStyle(); // switched to the next style based on name/provided parameters during character construction
 chest.previousStyle();
