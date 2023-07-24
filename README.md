@@ -39,7 +39,7 @@ body.leftFoot; // ChangeablePart class object representing leftFoot's body div
 // FUNCTIONS //
 body.parts(); // returns array of all of the body changeable parts
 
-// function from root class Changeable
+// functions inherited from class Changeable
 body.showAll() // make all the parts of the body visible;
 body.hideAll() // make all the parts of the body invisible;
 body.activate() // make all the parts of the body active (the hookers works);
@@ -93,7 +93,7 @@ chest.highlight(); // adds effect to the part
 chest.nextStyle(); // switched to the next style based on name/provided parameters during character construction
 chest.previousStyle();
 
-// function from root class Part
+// functions inherited from class Part
 chest.move(x,y); // moved the div by x and y 
 chest.rotate(deg); // rotate the div by deg degree
 chest.scale(x,y); // scale the object in x direction by x, and in y direction by y
@@ -110,7 +110,7 @@ beard.div; // beard's parent div
 beard.type; // "Structural"
 beard.name; // "beard"
 
-// FUNCTIONS //
+// functions inherited from class Part
 beard.move(x,y); 
 beard.rotate(deg); 
 beard.scale(x,y);
