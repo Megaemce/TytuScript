@@ -5,7 +5,7 @@
 </span>
 
 ## Introduction
-Kapitan Bomba's characters written in TypeScript. <br>
+Kapitan Bomba's characters playground written in TypeScript. <br>
 Change body/clothes and animate the characters as you want in UI or use console. 
 
 ### Using console to access character's main object
