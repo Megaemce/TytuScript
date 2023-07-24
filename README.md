@@ -73,10 +73,10 @@ structural.parts();  // returns array of all of the unchangeable structural part
 ````
 
 #### ChangeablePart object
-Part that can be switched to different style. This object extend class `Part`. Usefull parameters and functions:
+Part that can be switched to different style. Extending class `Part`. Usefull parameters and functions:
 ````typescript
 const chest = body.chest; // chest element of the body
-//            clothes.chest; // chest element of the clothes
+//         clothes.chest; // chest element of the clothes
 
 // PARAMETERS //
 chest.div; // chest's div
@@ -90,7 +90,7 @@ chest.deactivate();
 chest.hide(); // hiddes the part
 chest.show(); 
 chest.highlight(); // adds effect to the part
-chest.nextStyle(); // switched to the next style based on name/provided parameters during character construction
+chest.nextStyle(); // switched to the next style
 chest.previousStyle();
 
 // functions inherited from class Part
@@ -101,7 +101,7 @@ chest.animate(transformName, transformValue, duration, defaultValue, iteration);
 ````
 
 #### StructuralPart object 
-Part that cannot to switched. This object extend class `Part`. Parameters:
+Part that cannot be changed. Extending class `Part`. Parameters:
 ````typescript
 const beard = structural.bear; // beard's parent div containing beardBody and beardClothes divs
 
