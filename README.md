@@ -5,8 +5,19 @@
 </span>
 
 ## Introduction
-Kapitan Bomba's characters playground written in TypeScript. <br>
+Kapitan Bomba's[ᵂᴵᴷᴵ ᴾᴸ](https://pl.wikipedia.org/wiki/Kapitan_Bomba) characters playground written in TypeScript. <br>
 Change body/clothes and animate the characters as you want in UI or use console. 
+
+### Why even bother to recreate death cartoon? 
+There is many fans around Poland that cannot stand/understand the reason why Bomba got cancelled. We were left in a limbo for 10 years.
+It's the time to get stuff in our hands and resurrect captain Tytus Bomba like a Jesus. People simply needs him.  
+
+## How to get around
+### Using UI
+Simply switch between sites - first you will have to choose main character.
+Secondly you can work on character's body, and then on character's clothes. 
+
+The last site give you a chance to see build-in animation live demo played on your character. 
 
 ### Using console to access character's main object
 Get direct access to all character's component by simply typing in the console:
@@ -116,3 +127,9 @@ beard.rotate(deg);
 beard.scale(x,y);
 beard.animate(transformName, transformValue, duration, defaultValue, iteration);
 ````
+## TODO / Volonteer needed
+As I was on that just by myself I managed to correctly create only Tytus Bomba character and two basic animation - talking and breathing. 
+I need at least 2 or 3 other weirdos with patient and probably vector graphic abilities to recreate other characters and bring them to life! 
+
+That way we could create foundations for the future development like game/full animation section (however without the original Walaszek's voice)  
+
