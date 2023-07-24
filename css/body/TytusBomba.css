@@ -3,7 +3,7 @@
 #TytusBomba-headBody {
 }
 #TytusBomba-faceBody {
-    background-image: url("../../img/body/face/TytusBomba0.svg");
+    background-image: url(../../img/body/face/TytusBomba0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -13,7 +13,7 @@
 #TytusBomba-hairBody {
     margin-left: 10%;
 
-    background-image: url("../../img/body/hair/TytusBomba0.svg");
+    background-image: url(../../img/body/hair/TytusBomba0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -22,13 +22,13 @@
     margin-left: 2%;
 }
 #TytusBomba-leftEyebrowBody {
-    background-image: url("../../img/body/eyebrow/TytusBomba0.svg");
+    background-image: url(../../img/body/eyebrow/TytusBomba0.svg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-rightEyebrowBody {
-    background-image: url("../../img/body/eyebrow/TytusBomba1.svg");
+    background-image: url(../../img/body/eyebrow/TytusBomba1.svg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
@@ -40,62 +40,62 @@
 #TytusBomba-rightEyeBody {
 }
 #TytusBomba-leftEyeBody {
-    background-image: url("../../img/body/eye/TytusBomba0.svg");
+    background-image: url(../../img/body/eye/TytusBomba0.svg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-rightEyeBody {
-    background-image: url("../../img/body/eye/TytusBomba1.svg");
+    background-image: url(../../img/body/eye/TytusBomba1.svg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-noseBody {
-    background-image: url("../../img/body/nose/TytusBomba0.svg");
+    background-image: url(../../img/body/nose/TytusBomba0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-beardBody {
     margin-right: 0.7%;
-    background-image: url("../../img/body/beard/TytusBomba0.svg");
+    background-image: url(../../img/body/beard/TytusBomba0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-mouthBody {
-    background-image: url("../../img/body/mouth/TytusBomba0.svg");
+    background-image: url(../../img/body/mouth/TytusBomba0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-leftUpperarmBody {
-    background-image: url("../../img/body/upperarm/Human0.svg");
+    background-image: url(../../img/body/upperarm/Human0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-leftForearmBody {
-    background-image: url("../../img/body/forearm/Human0.svg");
+    background-image: url(../../img/body/forearm/Human0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-rightUpperarmBody {
-    background-image: url("../../img/body/upperarm/Human1.svg");
+    background-image: url(../../img/body/upperarm/Human1.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-rightForearmBody {
-    background-image: url("../../img/body/forearm/Human1.svg");
+    background-image: url(../../img/body/forearm/Human1.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-chestBody {
-    background-image: url("../../img/body/chest/TytusBomba0.svg");
+    background-image: url(../../img/body/chest/TytusBomba0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -106,37 +106,37 @@
 #TytusBomba-leftLeg {
 }
 #TytusBomba-leftThighBody {
-    background-image: url("../../img/body/thigh/Human0.svg");
+    background-image: url(../../img/body/thigh/Human0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-leftCalfBody {
-    background-image: url("../../img/body/calf/Human0.svg");
+    background-image: url(../../img/body/calf/Human0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-leftFootBody {
-    background-image: url("../../img/body/foot/Human0.svg");
+    background-image: url(../../img/body/foot/Human0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-rightThighBody {
-    background-image: url("../../img/body/thigh/Human0.svg");
+    background-image: url(../../img/body/thigh/Human0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-rightCalfBody {
-    background-image: url("../../img/body/calf/Human0.svg");
+    background-image: url(../../img/body/calf/Human0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
 }
 #TytusBomba-rightFootBody {
-    background-image: url("../../img/body/foot/Human0.svg");
+    background-image: url(../../img/body/foot/Human0.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
