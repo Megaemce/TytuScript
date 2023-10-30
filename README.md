@@ -9,7 +9,7 @@ Kapitan Bomba's[ᵂᴵᴷᴵ ᴾᴸ](https://pl.wikipedia.org/wiki/Kapitan_Bomba
 Change body/clothes and animate the characters as you want in UI or use console. 
 
 ### Why even bother to recreate death cartoon? 
-There is many fans around Poland that cannot stand/understand the reason why Bomba got cancelled. We were left in a limbo for 10 years.
+There are many fans around Poland that cannot stand/understand the reason why Bomba got cancelled. We were left in a limbo for 10 years.
 It's the time to get stuff in our hands and resurrect captain Tytus Bomba like a Jesus. People simply needs him.  
 
 ## How to get around
